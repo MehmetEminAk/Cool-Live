@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02000EE29C1CEBA009362C9 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000ED29C1CEBA009362C9 /* LoginVM.swift */; };
+		D02000F029C1D28F009362C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000EF29C1D28F009362C9 /* Constants.swift */; };
+		D02000F529C1D50F009362C9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000F329C1D50F009362C9 /* LoginVC.swift */; };
+		D02000FB29C203FB009362C9 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000FA29C203FB009362C9 /* General.swift */; };
+		D02000FE29C21375009362C9 /* LoginVCContraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000FD29C21375009362C9 /* LoginVCContraints.swift */; };
+		D020010029C225CD009362C9 /* LoginVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000FF29C225CD009362C9 /* LoginVCExtension.swift */; };
+		D020010329C2384C009362C9 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D020010229C2384C009362C9 /* GoogleSignInSwift */; };
 		D040D8DF29C0C51F006FAA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */; };
 		D040D8E129C0C51F006FAA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */; };
-		D040D8E329C0C51F006FAA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040D8E229C0C51F006FAA2D /* ViewController.swift */; };
-		D040D8E629C0C51F006FAA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D040D8E429C0C51F006FAA2D /* Main.storyboard */; };
 		D040D8E929C0C51F006FAA2D /* Cool_Live.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D040D8E729C0C51F006FAA2D /* Cool_Live.xcdatamodeld */; };
 		D040D8EB29C0C528006FAA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D040D8EA29C0C528006FAA2D /* Assets.xcassets */; };
 		D040D8EE29C0C528006FAA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D040D8EC29C0C528006FAA2D /* LaunchScreen.storyboard */; };
@@ -37,11 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D02000ED29C1CEBA009362C9 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		D02000EF29C1D28F009362C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D02000F329C1D50F009362C9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D02000FA29C203FB009362C9 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		D02000FD29C21375009362C9 /* LoginVCContraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCContraints.swift; sourceTree = "<group>"; };
+		D02000FF29C225CD009362C9 /* LoginVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCExtension.swift; sourceTree = "<group>"; };
 		D040D8DB29C0C51F006FAA2D /* Cool Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D040D8E229C0C51F006FAA2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D040D8E529C0C51F006FAA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D040D8E829C0C51F006FAA2D /* Cool_Live.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cool_Live.xcdatamodel; sourceTree = "<group>"; };
 		D040D8EA29C0C528006FAA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D040D8ED29C0C528006FAA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D020010329C2384C009362C9 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D02000E729C1CE3F009362C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D02000E929C1CE55009362C9 /* HelperViews */,
+				D02000E829C1CE49009362C9 /* Core */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D02000E829C1CE49009362C9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D02000F329C1D50F009362C9 /* LoginVC.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D02000E929C1CE55009362C9 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		D02000EA29C1CE60009362C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D02000EB29C1CE69009362C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D02000ED29C1CEBA009362C9 /* LoginVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D02000EC29C1CE7B009362C9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */,
+				D040D8EA29C0C528006FAA2D /* Assets.xcassets */,
+				D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */,
+				D02000EF29C1D28F009362C9 /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D02000F729C203D3009362C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D02000FC29C2135A009362C9 /* VCExtensions */,
+				D02000F929C203E9009362C9 /* General */,
+				D02000F829C203DE009362C9 /* ViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D02000F829C203DE009362C9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D02000F929C203E9009362C9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D02000FA29C203FB009362C9 /* General.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		D02000FC29C2135A009362C9 /* VCExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D02000FD29C21375009362C9 /* LoginVCContraints.swift */,
+				D02000FF29C225CD009362C9 /* LoginVCExtension.swift */,
+			);
+			path = VCExtensions;
+			sourceTree = "<group>";
+		};
 		D040D8D229C0C51F006FAA2D = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +195,11 @@
 		D040D8DD29C0C51F006FAA2D /* Cool Live */ = {
 			isa = PBXGroup;
 			children = (
-				D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */,
-				D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */,
-				D040D8E229C0C51F006FAA2D /* ViewController.swift */,
-				D040D8E429C0C51F006FAA2D /* Main.storyboard */,
-				D040D8EA29C0C528006FAA2D /* Assets.xcassets */,
+				D02000F729C203D3009362C9 /* Extensions */,
+				D02000EC29C1CE7B009362C9 /* Support */,
+				D02000EB29C1CE69009362C9 /* ViewModels */,
+				D02000EA29C1CE60009362C9 /* Models */,
+				D02000E729C1CE3F009362C9 /* Views */,
 				D040D8EC29C0C528006FAA2D /* LaunchScreen.storyboard */,
 				D040D8EF29C0C528006FAA2D /* Info.plist */,
 				D040D8E729C0C51F006FAA2D /* Cool_Live.xcdatamodeld */,
@@ -146,6 +240,9 @@
 			dependencies = (
 			);
 			name = "Cool Live";
+			packageProductDependencies = (
+				D020010229C2384C009362C9 /* GoogleSignInSwift */,
+			);
 			productName = "Cool Live";
 			productReference = D040D8DB29C0C51F006FAA2D /* Cool Live.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +315,9 @@
 				Base,
 			);
 			mainGroup = D040D8D229C0C51F006FAA2D;
+			packageReferences = (
+				D020010129C2384C009362C9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = D040D8DC29C0C51F006FAA2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +336,6 @@
 			files = (
 				D040D8EE29C0C528006FAA2D /* LaunchScreen.storyboard in Resources */,
 				D040D8EB29C0C528006FAA2D /* Assets.xcassets in Resources */,
-				D040D8E629C0C51F006FAA2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D040D8E329C0C51F006FAA2D /* ViewController.swift in Sources */,
+				D02000FE29C21375009362C9 /* LoginVCContraints.swift in Sources */,
 				D040D8DF29C0C51F006FAA2D /* AppDelegate.swift in Sources */,
 				D040D8E929C0C51F006FAA2D /* Cool_Live.xcdatamodeld in Sources */,
 				D040D8E129C0C51F006FAA2D /* SceneDelegate.swift in Sources */,
+				D02000F529C1D50F009362C9 /* LoginVC.swift in Sources */,
+				D02000EE29C1CEBA009362C9 /* LoginVM.swift in Sources */,
+				D02000FB29C203FB009362C9 /* General.swift in Sources */,
+				D020010029C225CD009362C9 /* LoginVCExtension.swift in Sources */,
+				D02000F029C1D28F009362C9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D040D8E429C0C51F006FAA2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D040D8E529C0C51F006FAA2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D040D8EC29C0C528006FAA2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,11 +537,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56K423922J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cool Live/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,11 +564,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56K423922J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cool Live/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,6 +696,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D020010129C2384C009362C9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D020010229C2384C009362C9 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D020010129C2384C009362C9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D040D8E729C0C51F006FAA2D /* Cool_Live.xcdatamodeld */ = {
