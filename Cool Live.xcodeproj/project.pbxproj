@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00A38C929C33FF900209622 /* SignUpConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A38C829C33FF900209622 /* SignUpConstraints.swift */; };
 		D02000EE29C1CEBA009362C9 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000ED29C1CEBA009362C9 /* LoginVM.swift */; };
 		D02000F029C1D28F009362C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000EF29C1D28F009362C9 /* Constants.swift */; };
 		D02000F529C1D50F009362C9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000F329C1D50F009362C9 /* LoginVC.swift */; };
@@ -14,6 +15,9 @@
 		D02000FE29C21375009362C9 /* LoginVCContraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000FD29C21375009362C9 /* LoginVCContraints.swift */; };
 		D020010029C225CD009362C9 /* LoginVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02000FF29C225CD009362C9 /* LoginVCExtension.swift */; };
 		D020010329C2384C009362C9 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D020010229C2384C009362C9 /* GoogleSignInSwift */; };
+		D020010529C27049009362C9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D020010429C27049009362C9 /* SignInVC.swift */; };
+		D020010729C270D4009362C9 /* SignInVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D020010629C270D4009362C9 /* SignInVCExtension.swift */; };
+		D020010929C277CD009362C9 /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D020010829C277CD009362C9 /* CommonViews.swift */; };
 		D040D8DF29C0C51F006FAA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */; };
 		D040D8E129C0C51F006FAA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */; };
 		D040D8E929C0C51F006FAA2D /* Cool_Live.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D040D8E729C0C51F006FAA2D /* Cool_Live.xcdatamodeld */; };
@@ -42,12 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00A38C829C33FF900209622 /* SignUpConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConstraints.swift; sourceTree = "<group>"; };
 		D02000ED29C1CEBA009362C9 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		D02000EF29C1D28F009362C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D02000F329C1D50F009362C9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D02000FA29C203FB009362C9 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		D02000FD29C21375009362C9 /* LoginVCContraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCContraints.swift; sourceTree = "<group>"; };
 		D02000FF29C225CD009362C9 /* LoginVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCExtension.swift; sourceTree = "<group>"; };
+		D020010429C27049009362C9 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		D020010629C270D4009362C9 /* SignInVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVCExtension.swift; sourceTree = "<group>"; };
+		D020010829C277CD009362C9 /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
 		D040D8DB29C0C51F006FAA2D /* Cool Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D040D8DE29C0C51F006FAA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D040D8E029C0C51F006FAA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				D02000F329C1D50F009362C9 /* LoginVC.swift */,
+				D020010429C27049009362C9 /* SignInVC.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 		D02000E929C1CE55009362C9 /* HelperViews */ = {
 			isa = PBXGroup;
 			children = (
+				D020010829C277CD009362C9 /* CommonViews.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -168,6 +178,8 @@
 			children = (
 				D02000FD29C21375009362C9 /* LoginVCContraints.swift */,
 				D02000FF29C225CD009362C9 /* LoginVCExtension.swift */,
+				D020010629C270D4009362C9 /* SignInVCExtension.swift */,
+				D00A38C829C33FF900209622 /* SignUpConstraints.swift */,
 			);
 			path = VCExtensions;
 			sourceTree = "<group>";
@@ -364,8 +376,12 @@
 				D040D8DF29C0C51F006FAA2D /* AppDelegate.swift in Sources */,
 				D040D8E929C0C51F006FAA2D /* Cool_Live.xcdatamodeld in Sources */,
 				D040D8E129C0C51F006FAA2D /* SceneDelegate.swift in Sources */,
+				D020010529C27049009362C9 /* SignInVC.swift in Sources */,
+				D020010729C270D4009362C9 /* SignInVCExtension.swift in Sources */,
 				D02000F529C1D50F009362C9 /* LoginVC.swift in Sources */,
+				D020010929C277CD009362C9 /* CommonViews.swift in Sources */,
 				D02000EE29C1CEBA009362C9 /* LoginVM.swift in Sources */,
+				D00A38C929C33FF900209622 /* SignUpConstraints.swift in Sources */,
 				D02000FB29C203FB009362C9 /* General.swift in Sources */,
 				D020010029C225CD009362C9 /* LoginVCExtension.swift in Sources */,
 				D02000F029C1D28F009362C9 /* Constants.swift in Sources */,

@@ -55,5 +55,4 @@ extension LoginVC {
             
         ])
     }
-    //CGRect(x: deviceWidth * 0.08, y: deviceHeight * 0.41, width: deviceWidth * 0.84, height: deviceHeight * 0.05)
 }
